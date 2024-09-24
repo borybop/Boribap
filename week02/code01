@@ -1,0 +1,13 @@
+function checking(num) {
+    return num % 2 !== 0;
+}
+
+function printing(callback) {
+    for (let i = 1; i <= 10; i++) {
+        if (callback(i)) {
+            console.log(i);
+        }
+    }
+}
+
+printing(checking);
