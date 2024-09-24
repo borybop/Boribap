@@ -1,0 +1,9 @@
+const travel = {
+    destination: '제주도',
+    season: '초여름'
+};
+
+// for..in 문을 이용하여 key와 value 출력
+for (let key in travel) {
+    console.log(`${key}: ${travel[key]}`);
+}
